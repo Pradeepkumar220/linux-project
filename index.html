@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meri Ice Cream Dukaan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff5f7;
+    }
+
+    header {
+      background-color: #ff4d6d;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 250px;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .price {
+      color: #ff4d6d;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #ff4d6d;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍨 Meri Ice Cream Dukaan</h1>
+    <p>Thandi Thandi Ice Cream | Fresh & Swadisht!</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1604908176833-9a10f042d6a3" alt="Vanilla Ice Cream">
+      <div class="card-content">
+        <h3>Vanilla Delight</h3>
+        <p class="price">₹50</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1628879467118-7f505b0e89d1" alt="Chocolate Ice Cream">
+      <div class="card-content">
+        <h3>Chocolate Blast</h3>
+        <p class="price">₹70</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1589710751792-ded6dfe430e4" alt="Strawberry Ice Cream">
+      <div class="card-content">
+        <h3>Strawberry Magic</h3>
+        <p class="price">₹60</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1612197275890-0c6e6025e9e7" alt="Mango Ice Cream">
+      <div class="card-content">
+        <h3>Mango Masti</h3>
+        <p class="price">₹65</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Meri Ice Cream Dukaan | Swad Ka Asli Swarg!
+  </footer>
+
+</body>
+</html>
+
